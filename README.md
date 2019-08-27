@@ -70,3 +70,9 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
+Fejléc1 haha|Fejléc2 hahaha|Fejléc3 ha
+:---|:---:|---:
+Subi|Dubi|a nevem
+És nem|valami más|Subi Dú
+Semmiképpen    |nem|!!!
+
