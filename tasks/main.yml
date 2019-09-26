@@ -1,2 +1,18 @@
 ---
 # tasks file for hello-world
+- name: SET DEFAULT RETURN VALUES
+  vars:
+      aa: 6
+      bb: 4
+
+
+  hosts: "{{ affected_host }}"
+
+  tasks:
+    - shell: uname -a
+      when: aa == 6 or cc == 44
+      register: my_out
+    - debug: msg="{{my_out.stdout}}"
+   
+    - debug: "{{ my_out.stdout }}"
+
